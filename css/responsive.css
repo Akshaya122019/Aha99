@@ -1,0 +1,151 @@
+:root {
+    --gold: #C9A84C;
+    --gold-light: #E8C97A;
+    --dark-bg: #0A0A0F;
+    --dark-nav: #080810;
+    --text-light: #F5F0E8;
+    --text-muted: #9A9080;
+    --navy: #1a1e3a;
+    --navy2: #0e1128;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+
+    .nav-left,
+    .nav-right {
+        display: none;
+    }
+
+    .hamburger-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Logo left, hamburger right end */
+    .nav-inner {
+        grid-template-columns: 1fr auto;
+        padding: 10px 16px;
+        gap: 0;
+    }
+
+    .nav-logo {
+        justify-content: flex-start;
+    }
+
+    #home .row {
+        flex-direction: column;
+    }
+
+    .hero-content-col {
+        padding: 60px 28px 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-tag,
+    .hero-subtitle {
+        justify-content: center;
+    }
+
+    .hero-actions {
+        justify-content: center;
+    }
+
+    .hero-image-col {
+        padding: 10px 28px 60px;
+    }
+
+    .hero-food-img {
+        max-width: 320px;
+    }
+
+    .statsbar-inner {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .stat-item:nth-child(2) {
+        border-right: none
+    }
+
+    .stat-item:nth-child(3) {
+        border-top: 1px solid rgba(201, 150, 58, .15);
+        border-right: 1px solid rgba(201, 150, 58, .15)
+    }
+
+    .stat-item:nth-child(4) {
+        border-top: 1px solid rgba(201, 150, 58, .15)
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .testi-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media (max-width: 576px) {
+    .top-bar {
+        font-size: 9px;
+        letter-spacing: 1.5px;
+    }
+
+    .top-bar .hide-sm {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 42px;
+    }
+
+    .hero-food-img {
+        max-width: 270px;
+    }
+
+    .statsbar-inner {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr
+    }
+
+    .testi-grid {
+        grid-template-columns: 1fr
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr
+    }
+}
+
+@media(max-width:767px) {
+    .mc-slide {
+        grid-template-columns: 1fr
+    }
+
+    .mc-slide-info {
+        padding: 36px 28px
+    }
+
+    .mc-controls {
+        right: 28px;
+        bottom: 22px
+    }
+
+    .mc-dots {
+        left: 28px;
+        bottom: 28px
+    }
+
+    .contact-box {
+        padding: 36px 24px
+    }
+}

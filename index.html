@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GG Malaysian Restaurant</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <span>Halal Certified</span>
+        <span class="dot">·</span>
+        <span class="hide-sm">Authentic Malaysian Cuisine</span>
+        <span class="dot hide-sm">·</span>
+        <span>Coimbatore, Tamil Nadu</span>
+        <span class="dot">·</span>
+        <span>+91 99404 43099</span>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="mainNav">
+        <div class="nav-inner">
+            <div class="nav-left">
+                <a href="#" class="nav-link-custom">Story</a>
+                <a href="#" class="nav-link-custom">Specials</a>
+                <a href="#" class="nav-link-custom">Menu</a>
+            </div>
+            <div class="nav-logo">
+                <a href="#" style="text-decoration:none;">
+
+                    <img src="images/ahaa.png" class="img-fluid">
+
+                    <span class="logo-sub">
+                        <img src="images/logo-word.png" class="img-fluid">
+                    </span>
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="nav-link-custom">Biryani</a>
+                <a href="#" class="nav-link-custom">Contact</a>
+                <a href="tel:+919940443099" class="btn-reserve">
+                    <i class="bi bi-telephone-fill"></i> Reserve
+                </a>
+            </div>
+            <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open Menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE OVERLAY MENU -->
+    <div id="mobileMenu">
+        <span class="mobile-logo">Aha Malaysian Restaurant</span>
+        <button class="mobile-close" id="closeMenuBtn" aria-label="Close Menu">
+            <i class="bi bi-x-lg"></i>
+        </button>
+        <a href="#" class="mobile-nav-link">Story</a>
+        <a href="#" class="mobile-nav-link">Specials</a>
+        <a href="#" class="mobile-nav-link">Menu</a>
+        <a href="#" class="mobile-nav-link">Biryani</a>
+        <a href="#" class="mobile-nav-link">Contact</a>
+        <div class="mobile-divider"></div>
+        <div class="mobile-reserve">
+            <a href="tel:+919940443099" class="btn-primary-gold">
+                <i class="bi bi-telephone-fill"></i> Reserve a Table
+            </a>
+        </div>
+    </div>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Floating Halal Badge -->
+                <div class="halal-float">
+                    <div class="hf-circle">
+                        <!-- Halal Arabic crescent/star icon -->
+                        حلال
+                    </div>
+                    <span class="hf-label">Halal</span>
+                </div>
+                <!-- col-6: Content -->
+                <div class="col-12 col-lg-6 hero-content-col">
+                    <div>
+                        <div class="hero-tag fade-up">Authentic Malaysian Cuisine</div>
+                        <h1 class="hero-title fade-up delay-1">
+                            Taste the<br>
+                            <em>Soul</em><br>
+                            of Malaysia
+                        </h1>
+                        <div class="hero-subtitle fade-up delay-2">Coimbatore's Finest Malaysian Kitchen</div>
+                        <p class="hero-desc fade-up delay-3">
+                            From creamy Nasi Lemak to fiery Tom Yam &amp; fragrant Biryani &mdash; every dish is
+                            handcrafted with genuine Malaysian spices, served fresh and certified Halal.
+                        </p>
+                        <div class="hero-actions fade-up delay-4">
+                            <a href="#" class="btn-primary-gold">
+                                <i class="bi bi-book"></i> View Menu
+                            </a>
+                            <a href="tel:+919940443099" class="btn-outline-gold">
+                                <i class="bi bi-telephone"></i> Call Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- col-6: Image -->
+                <div class="col-12 col-lg-6 hero-image-col fade-right">
+                    <img class="hero-food-img" src="images/sss.png"
+                        alt="Tom Yam - GG Malaysian Restaurant Signature Dish" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <div id="statsbar">
+        <div class="statsbar-inner">
+            <div class="stat-item reveal d1">
+                <span class="stat-icon"><i class="bi bi-bowl-hot-fill"></i></span>
+                <div class="stat-num">15+</div>
+                <div class="stat-lbl">Menu Dishes</div>
+            </div>
+            <div class="stat-item reveal d2">
+                <span class="stat-icon"><i class="bi bi-patch-check-fill"></i></span>
+                <div class="stat-num">100%</div>
+                <div class="stat-lbl">Halal Certified</div>
+            </div>
+            <div class="stat-item reveal d3">
+                <span class="stat-icon"><i class="bi bi-currency-rupee"></i></span>
+                <div class="stat-num">₹40</div>
+                <div class="stat-lbl">Starts From</div>
+            </div>
+            <div class="stat-item reveal d4">
+                <span class="stat-icon"><i class="bi bi-geo-alt-fill"></i></span>
+                <div class="stat-num">CBE</div>
+                <div class="stat-lbl">Coimbatore, TN</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5 reveal-left">
+                    <div class="about-img-wrap">
+                        <img src="images/abt-image.png" alt="AHA 99 Restaurant" />
+                    </div>
+                </div>
+                <div class="col-lg-7 ps-lg-5 reveal-right">
+                    <div class="section-divider">
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                        <span class="section-tag">Our Story</span>
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                    </div>
+                    <h2 class="section-title mb-4">Where <em>Malaysian</em><br>Flavours Come Alive</h2>
+                    <p style="color:var(--muted);line-height:1.85;margin-bottom:20px;">
+                        AHA 99 Malaysian Restaurant brings the vibrant, aromatic soul of Malaysian cooking to the
+                        streets of Coimbatore. We believe food is more than sustenance — it is memory, culture, and
+                        connection.
+                    </p>
+                    <p style="color:var(--muted);line-height:1.85;margin-bottom:32px;">
+                        Every recipe honours tradition: coconut-fragrant rice, slow-simmered curries, and bold Tom Yam
+                        broths that warm you from the inside out. All served fresh, all certified Halal.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-4 text-center">
+                            <div style="font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold)">15+</div>
+                            <div
+                                style="font-size:.75rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-top:4px">
+                                Dishes</div>
+                        </div>
+                        <div class="col-4 text-center">
+                            <div style="font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold)">100%
+                            </div>
+                            <div
+                                style="font-size:.75rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-top:4px">
+                                Halal</div>
+                        </div>
+                        <div class="col-4 text-center">
+                            <div style="font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold)">₹30</div>
+                            <div
+                                style="font-size:.75rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-top:4px">
+                                Starts From</div>
+                        </div>
+                    </div>
+                    <div class="about-halal">
+                        <i class="bi bi-patch-check-fill"></i>
+                        100% Halal Certified
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU CAROUSEL -->
+    <section id="menu">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="section-divider justify-content-center">
+                    <div class="line" style="max-width:60px"></div>
+                    <div class="dot"></div>
+                    <span class="section-tag">Signature Dishes</span>
+                    <div class="dot"></div>
+                    <div class="line" style="max-width:60px"></div>
+                </div>
+                <h2 class="section-title mt-2">Chef's <em>Favourites</em></h2>
+            </div>
+        </div>
+        <div class="menu-carousel overflow-hidden reveal">
+            <div class="mc-track" id="mcTrack">
+                <div class="mc-slide active">
+                    <div class="mc-slide-img p-5"><img src="images/menu-nasi.png" alt="Nasi Lemak" class="img-fluid">
+                    </div>
+                    <div class="mc-slide-info">
+                        <p class="mc-cat">Signature Dish</p>
+                        <h3 class="mc-name">Nasi Lemak</h3>
+                        <p class="mc-desc">Malaysia's beloved national dish — fragrant coconut rice served with crispy
+                            anchovies, roasted peanuts, fresh cucumber, a soft-boiled egg, and our house sambal.</p>
+                        <div class="mc-price">₹99</div>
+                        <div class="mc-dots" id="mcDots"></div>
+                        <div class="mc-controls">
+                            <button class="mc-btn" id="mcPrev"><i class="bi bi-arrow-left"></i></button>
+                            <button class="mc-btn" id="mcNext"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mc-slide">
+                    <div class="mc-slide-img p-5"><img src="images/tum-yum.png" alt="Tom Yam Soup" class="img-fluid" />
+                    </div>
+                    <div class="mc-slide-info">
+                        <p class="mc-cat">Signature Dish</p>
+                        <h3 class="mc-name">Tom Yam Soup</h3>
+                        <p class="mc-desc">A bold, tangy broth infused with lemongrass, kaffir lime leaves, galangal,
+                            and chilli — the iconic Thai-Malaysian soup that ignites every sense.</p>
+                        <div class="mc-price">₹149</div>
+                        <div class="mc-dots"></div>
+                        <div class="mc-controls">
+                            <button class="mc-btn mc-prev-inner"><i class="bi bi-arrow-left"></i></button>
+                            <button class="mc-btn mc-next-inner"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mc-slide">
+                    <div class="mc-slide-img"><img src="WhatsApp_Image_2026-04-14_at_9_39_17_PM.jpeg"
+                            alt="Tom Yam Set" /></div>
+                    <div class="mc-slide-info">
+                        <p class="mc-cat">Signature Set</p>
+                        <h3 class="mc-name">Tom Yam Set</h3>
+                        <p class="mc-desc">The full Tom Yam experience — a complete meal set with rice, assorted karis,
+                            and the iconic Tom Yam soup. Perfect for sharing or a hearty solo feast.</p>
+                        <div class="mc-price">₹549</div>
+                        <div class="mc-dots"></div>
+                        <div class="mc-controls">
+                            <button class="mc-btn mc-prev-inner"><i class="bi bi-arrow-left"></i></button>
+                            <button class="mc-btn mc-next-inner"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mc-slide">
+                    <div class="mc-slide-img"><img src="WhatsApp_Image_2026-04-17_at_12_19_15_PM.jpeg"
+                            alt="Kari Dosa" /></div>
+                    <div class="mc-slide-info">
+                        <p class="mc-cat">Dosa Special</p>
+                        <h3 class="mc-name">Kari Dosa</h3>
+                        <p class="mc-desc">A crispy golden dosa filled with rich, spiced Malaysian curry — a beautiful
+                            fusion of South Indian tradition and Malaysian boldness on one plate.</p>
+                        <div class="mc-price">₹99</div>
+                        <div class="mc-dots"></div>
+                        <div class="mc-controls">
+                            <button class="mc-btn mc-prev-inner"><i class="bi bi-arrow-left"></i></button>
+                            <button class="mc-btn mc-next-inner"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FULL MENU -->
+    <section id="fullmenu">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="section-divider justify-content-center">
+                    <div class="line" style="max-width:60px"></div>
+                    <div class="dot"></div>
+                    <span class="section-tag">Our Menu</span>
+                    <div class="dot"></div>
+                    <div class="line" style="max-width:60px"></div>
+                </div>
+                <h2 class="section-title mt-2">Full <em>Menu</em></h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 reveal d1">
+                    <div class="menu-card">
+                        <div class="menu-card-title"><i class="bi bi-star-fill"></i> Signature Dishes</div>
+                        <div class="menu-item"><span class="menu-item-name">Nasi Lemak</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹99</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Tom Yam Soup</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹149</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Tom Yam Set</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹549</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal d2">
+                    <div class="menu-card">
+                        <div class="menu-card-title"><i class="bi bi-egg-fried"></i> Dosa</div>
+                        <div class="menu-item"><span class="menu-item-name">Special Dosa</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹40</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Egg Dosa</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹60</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Masala Dosa</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹70</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Kari Dosa</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal d3">
+                    <div class="menu-card">
+                        <div class="menu-card-title"><i class="bi bi-fire"></i> Curries &amp; Rice</div>
+                        <div class="menu-item"><span class="menu-item-name">Nasi (Rice)</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹30</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Veg Kari</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹15 / 20</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Chicken Kari</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹99</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Beef Kari</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹99</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Fish Kari</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹99</span>
+                        </div>
+                        <div class="menu-item"><span class="menu-item-name">Mutton Kari</span>
+                            <div class="menu-item-dots"></div><span class="menu-item-price">₹250</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="whyus">
+        <div class="container">
+            <div class="text-center reveal">
+                <div class="section-divider justify-content-center">
+                    <div class="line" style="max-width:60px"></div>
+                    <div class="dot"></div>
+                    <span class="section-tag">Why Choose Us</span>
+                    <div class="dot"></div>
+                    <div class="line" style="max-width:60px"></div>
+                </div>
+                <h2 class="section-title mt-2">What Makes <em>AHA 99</em><br>Truly Special</h2>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-item reveal d1">
+                    <div class="feature-icon"><i class="bi bi-patch-check-fill"></i></div>
+                    <div class="feature-name">100% Halal</div>
+                    <p class="feature-text">Every ingredient and every dish is prepared to full Halal certification
+                        standards — dine with complete confidence.</p>
+                </div>
+                <div class="feature-item reveal d2">
+                    <div class="feature-icon"><i class="bi bi-basket2-fill"></i></div>
+                    <div class="feature-name">Fresh Daily</div>
+                    <p class="feature-text">We prepare everything fresh each morning. No shortcuts, no frozen shortcuts
+                        — just honest, flavourful cooking.</p>
+                </div>
+                <div class="feature-item reveal d3">
+                    <div class="feature-icon"><i class="bi bi-globe-asia-australia"></i></div>
+                    <div class="feature-name">Authentic Recipes</div>
+                    <p class="feature-text">Traditional Malaysian recipes passed down through generations — the real
+                        flavours, not a watered-down version.</p>
+                </div>
+                <div class="feature-item reveal d4">
+                    <div class="feature-icon"><i class="bi bi-currency-rupee"></i></div>
+                    <div class="feature-name">Affordable Prices</div>
+                    <p class="feature-text">Great Malaysian food shouldn't break the bank. Our menu starts at just ₹40
+                        so everyone can savour Malaysia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="text-center reveal">
+                <div class="section-divider justify-content-center">
+                    <div class="line" style="max-width:60px"></div>
+                    <div class="dot"></div>
+                    <span class="section-tag">Guest Reviews</span>
+                    <div class="dot"></div>
+                    <div class="line" style="max-width:60px"></div>
+                </div>
+                <h2 class="section-title mt-2">Loved by <em>Food Lovers</em><br>Across Coimbatore</h2>
+            </div>
+            <div class="testi-grid">
+                <div class="testi-card reveal d1">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">"The Nasi Lemak here is absolutely incredible — the sambal is perfect and the
+                        coconut rice is so fragrant. Best Malaysian food I've had outside Malaysia!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">AK</div>
+                        <div>
+                            <div class="testi-name">Arjun K.</div>
+                            <div class="testi-loc">Coimbatore</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card reveal d2">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">"The Mutton Biryani is a dream — aromatic, perfectly spiced, and the meat just
+                        falls apart. Halal certified too, which is a huge plus for our family!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">FM</div>
+                        <div>
+                            <div class="testi-name">Fathima M.</div>
+                            <div class="testi-loc">Coimbatore</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card reveal d3">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">"Tom Yam Soup is a flavour explosion. Spicy, sour, aromatic — everything you'd
+                        expect from authentic Malaysian cooking. We visit every week now!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">RS</div>
+                        <div>
+                            <div class="testi-name">Ravi S.</div>
+                            <div class="testi-loc">Coimbatore</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container position-relative">
+            <div class="text-center mb-5 reveal">
+                <div class="section-divider justify-content-center">
+                    <div class="line" style="max-width:60px"></div>
+                    <div class="dot"></div>
+                    <span class="section-tag">Find Us</span>
+                    <div class="dot"></div>
+                    <div class="line" style="max-width:60px"></div>
+                </div>
+                <h2 class="section-title mt-2">Visit <em>AHA 99</em></h2>
+            </div>
+            <div class="contact-box reveal">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <div class="ci-label">Phone</div>
+                                <div class="ci-value"><a href="tel:+919940443099">+91 99404 43099</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="bi bi-globe"></i></div>
+                            <div>
+                                <div class="ci-label">Website</div>
+                                <div class="ci-value"><a href="http://aha99malaysianrestaurant.com"
+                                        target="_blank">aha99malaysianrestaurant.com</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="bi bi-clock-fill"></i></div>
+                            <div>
+                                <div class="ci-label">Hours</div>
+                                <div class="ci-value">Open Daily · Morning to Night</div>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <div class="ci-label">Location</div>
+                                <div class="ci-value">Coimbatore, Tamil Nadu</div>
+                            </div>
+                        </div>
+                        <div class="halal-badge">
+                            <div class="halal-circle">حلال</div>
+                            <div>
+                                <div
+                                    style="font-size:.73rem;letter-spacing:.1em;color:var(--gold2);text-transform:uppercase">
+                                    Halal Certified</div>
+                                <div style="font-size:.8rem;color:var(--muted);margin-top:2px">All our food is 100%
+                                    Halal</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <div
+                            style="font-family:'Playfair Display',serif;font-size:clamp(2.2rem,4vw,3.2rem);line-height:1.12;margin-bottom:20px;">
+                            Ready for a <em style="color:var(--gold)">taste</em><br>of Malaysia?
+                        </div>
+                        <p style="color:var(--muted);line-height:1.8;margin-bottom:32px;">Come visit us and experience
+                            the warmth of Malaysian hospitality right here in Coimbatore. Walk in, call ahead, or find
+                            us online.</p>
+                        <a href="tel:+919940443099" class="btn-gold me-3"><i class="bi bi-telephone me-2"></i>Call
+                            Now</a>
+                        <a href="http://aha99malaysianrestaurant.com" class="btn-outline-gold" target="_blank"><i
+                                class="bi bi-globe me-2"></i>Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div>
+                    <div class="footer-logo"><img src="logoo.png" alt="AHA 99" /></div>
+                    <p class="footer-tagline">Authentic Malaysian cuisine crafted with heart — fresh, Halal, and full of
+                        tradition in Coimbatore, Tamil Nadu.</p>
+                </div>
+                <div>
+                    <div class="footer-col-title">Navigate</div>
+                    <ul class="footer-col-links">
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#menu">Specials</a></li>
+                        <li><a href="#fullmenu">Full Menu</a></li>
+                        <li><a href="#biryani">Biryani Corner</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-col-title">Menu</div>
+                    <ul class="footer-col-links">
+                        <li><a href="#fullmenu">Signature Dishes</a></li>
+                        <li><a href="#fullmenu">Dosa</a></li>
+                        <li><a href="#fullmenu">Curries &amp; Rice</a></li>
+                        <li><a href="#biryani">Biryanis</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-col-title">Contact</div>
+                    <ul class="footer-col-links">
+                        <li><a href="tel:+919940443099">+91 99404 43099</a></li>
+                        <li><a href="http://aha99malaysianrestaurant.com" target="_blank">Website</a></li>
+                        <li><span style="color:var(--muted2);font-size:.83rem">Coimbatore, Tamil Nadu</span></li>
+                        <li><span style="color:var(--muted2);font-size:.83rem">Open Daily</span></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2026 AHA 99 Malaysian Restaurant · All Rights Reserved · Coimbatore, Tamil Nadu
+            </p>
+        </div>
+    </footer>
+
+    <button id="backTop" aria-label="Back to top"><i class="bi bi-chevron-up"></i></button>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $(window).on("scroll", function () {
+                $("#mainNav").toggleClass("scrolled", $(this).scrollTop() > 30);
+            });
+
+            $("#hamburgerBtn").on("click", function () {
+                $("#mobileMenu").addClass("open");
+                $("body").css("overflow", "hidden");
+            });
+
+            function closeMobileMenu() {
+                $("#mobileMenu").removeClass("open");
+                $("body").css("overflow", "");
+            }
+
+            $("#closeMenuBtn").on("click", closeMobileMenu);
+            $("#mobileMenu .mobile-nav-link").on("click", closeMobileMenu);
+            $(document).on("keydown", function (e) { if (e.key === "Escape") closeMobileMenu(); });
+
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) $(entry.target).addClass("visible");
+                });
+            }, { threshold: 0.12 });
+
+            $(".fade-up, .fade-right").each(function () { observer.observe(this); });
+
+            /* ── Back to top ── */
+            $('#backTop').on('click', function () { $('html,body').animate({ scrollTop: 0 }, 500); });
+
+            /* ── Smooth scroll (desktop nav) ── */
+            $('a[href^="#"]').not('.fs-link').on('click', function (e) {
+                var t = $(this.getAttribute('href'));
+                if (t.length) { e.preventDefault(); $('html,body').animate({ scrollTop: t.offset().top - 70 }, 700, 'swing'); }
+            });
+
+            /* ── Scroll reveal ── */
+            function revealCheck() {
+                var wh = $(window).height(), st = $(window).scrollTop();
+                $('.reveal,.reveal-left,.reveal-right').each(function () {
+                    if ($(this).offset().top < st + wh - 80) $(this).addClass('visible');
+                });
+            }
+            $(window).on('scroll', revealCheck); revealCheck();
+
+
+            /* ── Menu Carousel ── */
+            var slides = $('#mcTrack .mc-slide'), total = slides.length, cur = 0;
+            var dotsHtml = '';
+            for (var i = 0; i < total; i++) dotsHtml += '<div class="mc-dot' + (i === 0 ? ' active' : '') + '" data-i="' + i + '"></div>';
+            $('#mcDots').html(dotsHtml);
+
+            function goTo(idx) {
+                slides.removeClass('active');
+                cur = (idx + total) % total;
+                slides.eq(cur).addClass('active');
+                $('#mcTrack').css('transform', 'translateX(-' + (cur * 100) + '%)');
+                $('#mcDots .mc-dot').removeClass('active').eq(cur).addClass('active');
+            }
+            $('#mcNext,.mc-next-inner').on('click', function () { goTo(cur + 1); });
+            $('#mcPrev,.mc-prev-inner').on('click', function () { goTo(cur - 1); });
+            $(document).on('click', '.mc-dot', function () { goTo(parseInt($(this).data('i'))); });
+
+            var autoTimer = setInterval(function () { goTo(cur + 1); }, 5000);
+            $('.menu-carousel')
+                .on('mouseenter', function () { clearInterval(autoTimer); })
+                .on('mouseleave', function () { autoTimer = setInterval(function () { goTo(cur + 1); }, 5000); });
+
+            var tx = 0;
+            document.getElementById('mcTrack').addEventListener('touchstart', function (e) { tx = e.touches[0].clientX; }, { passive: true });
+            document.getElementById('mcTrack').addEventListener('touchend', function (e) {
+                var dx = tx - e.changedTouches[0].clientX;
+                if (Math.abs(dx) > 40) dx > 0 ? goTo(cur + 1) : goTo(cur - 1);
+            }, { passive: true });
+        });
+    </script>
+</body>
+
+</html>
