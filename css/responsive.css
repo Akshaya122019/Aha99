@@ -127,25 +127,76 @@
 }
 
 @media(max-width:767px) {
+    #menu {
+        padding: 60px 0
+    }
+
     .mc-slide {
-        grid-template-columns: 1fr
+        /* Stack: image on top, info below */
+        grid-template-columns: 1fr;
+        grid-template-rows: 260px auto;
+    }
+
+    .mc-slide-img {
+        height: 260px;
+        /* fixed height so image never collapses */
+        width: 100%;
     }
 
     .mc-slide-info {
-        padding: 36px 28px
+        min-height: unset;
+        padding: 28px 24px 72px;
     }
 
-    .mc-controls {
-        right: 28px;
-        bottom: 22px
+    .mc-name {
+        font-size: 1.6rem
     }
 
-    .mc-dots {
-        left: 28px;
-        bottom: 28px
+    .mc-desc {
+        font-size: .88rem
     }
 
-    .contact-box {
-        padding: 36px 24px
+    .mc-price {
+        font-size: 1.6rem
+    }
+
+    .mc-footer {
+        left: 24px;
+        right: 24px;
+        bottom: 20px
+    }
+
+.contact-box {
+    padding: 36px 24px
+}
+}
+
+/* ══════════════════════════════
+   TABLET  768px – 1023px
+══════════════════════════════ */
+/* ══ TABLET 768px – 1023px ══ */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mc-slide { grid-template-columns: 1fr 1fr }
+    .mc-slide-img { height: 420px }
+    .mc-slide-info { min-height: 420px; padding: 40px 36px 72px }
+    .mc-footer { left: 36px; right: 36px }
+}
+
+@media (max-width: 399px) {
+    .mc-slide-img {
+        height: 220px
+    }
+
+    .mc-slide-info {
+        padding: 22px 18px 66px
+    }
+
+    .mc-footer {
+        left: 18px;
+        right: 18px
+    }
+
+    .mc-name {
+        font-size: 1.4rem
     }
 }
